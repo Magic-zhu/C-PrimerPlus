@@ -7,14 +7,10 @@ using namespace std;
 
 int main()
 {
-    int hours;
-    int minutes;
-    cout << "Enter the number of hours:";
-    cin >> hours;
-    cout << endl;
-    cout << "Enter the number of minutes:";
-    cin >> minutes;
-    cout << endl;
-    cout << "Time:" << hours << ":" << minutes << endl;
+    const int uni = 12;
+    int inch;
+    cout << "Please input your height(inch):__\b\b";
+    cin >> inch;
+    cout << "Your height is " << inch/12 << " inch" << endl;
     system("pause");
 }
