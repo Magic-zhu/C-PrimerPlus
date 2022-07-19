@@ -3,4 +3,21 @@
 // 应与下面类似:
 // Enter the world's population: 6898758899
 // Enter the population of the Us: 310783781
-// The population of the US is 4. 50492号 of the world population.
+// The population of the US is 4.50492% of the world population.
+#include <string>
+#include <iostream>
+#include <math.h>
+#include <string>
+using namespace std;
+int main()
+{
+    long long population;
+    long long us;
+    cout << "Enter the world's population:";
+    cin >> population;
+    cout << "Enter the population of the US:";
+    cin >> us;
+    double result = (us * 100.0f / population);
+    cout << "The population of the US is " << result << "% of the world population." << endl;
+    system("pause");
+}
