@@ -5,6 +5,10 @@
         "xiosbase": "cpp",
         "xlocale": "cpp",
         "xutility": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "cstdlib": "cpp",
+        "system_error": "cpp",
+        "typeinfo": "cpp"
     }
 }

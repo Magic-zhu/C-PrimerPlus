@@ -3,8 +3,6 @@
 // 显示和计算平均成绩。
 
 #include <iostream>
-#include <string.h>
-#include <stdlib.h>
 
 using namespace std;
 
@@ -24,7 +22,7 @@ void showList(int list[], const int len)
 {
     for (int Index = 0; Index < len; Index++)
     {
-        cout << list[Index] << " ";
+        cout << list[Index] << endl;
     }
 }
 
@@ -37,11 +35,11 @@ void avgList(int list[], const int len)
     }
     if (len != 0)
     {
-        cout << "平均成绩为:" << sum / len;
+        cout << "平均成绩为:" << sum / len << endl;
     }
     else
     {
-        cout << "平均成绩为:" << 0;
+        cout << "平均成绩为:" << 0 << endl;
     }
 }
 
@@ -52,6 +50,7 @@ int main()
     len = inputList(list);
     showList(list, len);
     avgList(list, len);
-    system("pause");
+    int b;
+    cin >> b ;
     return 0;
 };
